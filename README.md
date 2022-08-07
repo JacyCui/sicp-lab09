@@ -648,3 +648,4 @@ Congratulations! You've finished all problems of the lab. Feel free to run docte
 python3 -m doctest lab09.py
 ```
 
+> Note: You should delete the testcase that will cause an exception in insert function before running doctest and then undo your deletion. Because doctest doesn't support test for exceptions.
